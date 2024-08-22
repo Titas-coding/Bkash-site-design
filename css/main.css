@@ -1,0 +1,381 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav design */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(230, 4, 143);
+    padding: 15px;
+    box-shadow: 10px 7px 20px rgb(189, 186, 186);
+}
+.menu-item {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    
+}
+.menu-item ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 18px ;  
+}
+   
+.menu-item ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black; 
+   
+}
+.menu-item ul  li p{
+    color: white;
+    text-shadow: 2px 2px 2px black; 
+
+}
+
+
+.bkas-logo img{
+    height: 30px;
+    padding-left: 200px;
+    
+}
+
+.nav-content p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.nav-logo{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin-right: px;
+}
+.button-bkash button{
+    width: 110px;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: rgb(230, 4, 143);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px black; 
+   
+}
+.menu-container{
+    margin-right: 50px;
+    
+}
+/* nav design end */
+
+/* main item design */
+
+.img-bkash img{
+    height: 420px;
+    width: 100%;
+}
+.img-title h1{
+    color: rgb(41, 40, 40);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.learn-more-button button {
+    width: 190px;
+    padding: 10px;
+    border: 1px  solid  rgb(230, 4, 143) ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(199, 198, 198);
+}
+.learn-more-button button a{
+    color: rgb(230, 4, 143) ;
+    text-decoration: none;
+    font-size: 20px;
+}
+.main-item{
+    text-align: center;
+}
+
+/* main item design end */
+
+/* service section here */
+
+/* service item design */
+
+.service-item img{
+    height: 130px;
+    
+}
+.service-item{
+    box-shadow: 5px 5px 50px rgb(163, 159, 159);
+    width: 17%;
+    text-align: center;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 8px;
+    background: white;
+}
+.service-item h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service-item p{
+    margin-bottom: 50px;
+    
+}
+.service-item a {
+    text-decoration: none;
+    color: red;
+    
+    
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.service-section{
+    text-align: center;
+    margin-top: 100px;
+    background: rgb(252, 238, 244);
+    width: 100%;
+    
+}
+.service-title h2{
+    font-size:35px ;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    
+}
+/* service itme design end */
+
+/* service content style design */
+.service-content-style{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 130px;   
+    margin-left: 130px;
+    margin-top: 40px;
+    
+  
+
+}
+
+.servie-hr hr{
+    border: 1px solid rgb(167, 161, 161);
+    width: 400px;
+    
+}
+.service-content p{
+    font-size: 25px;
+}
+/* service contect style design end */
+
+/* sort service design */
+.sort-service-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    
+}
+.sort-service-item a{
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+    
+
+.sort-service-item{
+    width: 10%;
+    border: 1px solid rgb(247, 241, 241);
+    
+
+}
+.img-logo img{
+    height: 50px;
+    
+}
+/* sort service end */
+
+.title3 h4{
+    font-size: 30px;
+}
+.title3{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.title3 p{
+    font-size: 18px;
+    margin-top: 30px;  
+    
+}
+ /* new item design */ 
+.new-item-container{
+   display: flex;
+    margin-top: 50px;  
+    
+    
+    
+}
+
+.new-item-section{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+    
+}
+.new-item-img img{
+    height: 380px;
+    margin-top: 50px;
+}
+.img-bkash2 img{
+    width: 100%;
+}
+.item-logo img{
+    height: 100px;
+    padding-bottom: 20px;
+}
+.new-item{
+     width: 200px;
+     box-shadow: 5px 5px 50px rgb(163, 159, 159);
+     margin-left: 10px;
+     text-align: center;
+     padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+}
+.new-item a{
+    text-decoration: none;
+    }
+    /* new item design end */
+
+.title4 h4{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-top: 100px;
+}  
+/* new feature  design  */
+.new-feature-container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 50px;
+    
+}
+.new-feature-item{
+    box-shadow: 5px 5px 50px rgb(163, 159, 159);
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 15px;
+    
+    
+    
+}
+
+.img-new-feature img{
+    width: 360px;
+    height: 380px;
+    padding-bottom: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.new-feature-item a{
+    text-decoration: none;
+    font-size: 20px;
+
+    
+}
+.see-all-button button{
+    width: 190px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px  solid  rgb(230, 4, 143) ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(199, 198, 198);
+    color: rgb(230, 4, 143);
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.new-feature-section{
+    text-align: center;
+}
+/* new feature design end */
+
+/* footer section design  */
+.footer-section{
+    background: black;
+    margin-top: 50px;
+    
+    justify-content: space-between;
+    padding-top: 50px;
+    
+
+}
+.content2 p{
+    color: white;
+    margin-left: 100px;
+}
+.footer-item ul li{
+
+     color: white;
+     
+     
+}
+.footer-item{
+    margin-left: 30px;
+    margin-right: 50px;
+    
+
+    
+}
+.footer-item ul{
+    list-style-type: none;
+    
+}
+.footer-container{
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+.footer-hr hr{
+    border: 1px solid rgb(100, 99, 99);
+
+}
+.footer-end p{
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+.footer-end p sub{
+    color: rgb(24, 202, 33);
+    font-size: 20px;
+}
+/* footer design end */
+
+
+
+
+
+
